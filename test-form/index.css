@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: white;
+}
+
+.-dev {
+    font-weight: normal;
+    letter-spacing: 5px;
+    margin-top: 30px;
+}
+
+.page-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.label {
+    display: inline-block;
+    font-weight: normal;
+    text-transform: lowercase;
+    letter-spacing: 4px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+fieldset {
+    text-transform: lowercase;
+    letter-spacing: 3px;
+    border: 1px solid #c77dff;
+    border-radius: 50px;
+}
+
+legend {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+form {
+    padding: 10px;
+    margin: 10px;
+}
+
+.image-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.image-content {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+.image-container > img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+.button {
+    margin: 10px;
+    width: 150px;
+    height: 30px;
+    background-color: #5E60CE;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: 3px;
+    text-transform: lowercase;
+    font-weight: bold;
+    box-shadow: 8px 8px 0 #7400B8;
+    transition: all 0.3s ease-in;
+}
+
+.button-form {
+    width: 100%;
+    text-align: center;
+}
+
+.image-second-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.image-second-content {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 700px;
+    left: 120px;
+}
+
+.image-second-content > img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.image-tird-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.image-tird-content {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 400px;
+    left: 900px;
+}
+
+.image-tird-content > img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.tecnologies {
+    margin: 20px;
+}
+
+.part-senior-form {
+    padding: 20px;
+}
+
+.anexo {
+    padding: 20px;
+}
+
+.text-area {
+    padding: 20px;
+}

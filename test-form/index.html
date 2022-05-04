@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desafio Julião!</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="page-wrapper">
+            <header>
+                <h1 class="-dev">Cadastro de Devs!</h1>
+                <div class="image-container">
+                    <div class="image-content">
+                        <img src="working.svg">
+                    </div>
+                </div>
+            </header>
+            <main>
+                <form action="#" method="GET">
+                    <fieldset>
+                            <legend class="-dev">Dados pessoais</legend>
+                        <div class="form-wrapper">
+                            <label for="nome" class="label">Nome completo: </label>
+                            <input type="text" id="nome" placeholder="Nome">
+                            <label for="idade" class="label">Idade: </label>
+                            <input type="number" id="idade" placeholder="idade" min="10" max="80">
+                            <label for="email" class="label">E-mail: </label>
+                            <input type="email" id="email" placeholder="E-mail">
+                            <label for="whats" class="label">Whatsapp: </label>
+                            <input type="text" id="whats" placeholder="(19)99999-999">
+                            <label for="End" class="label">Endereço completo: </label>
+                            <input type="text" id="End" placeholder="Endereço completo">
+                        </div>  
+                    </fieldset>
+                </form>
+                <form class="form-2">
+                    <fieldset>
+                        <legend class="-dev">Conhecimentos</legend>
+                    <div class="form-wrapper">
+                        <label for="Front-end">Front-end</label>
+                        <input type="radio" id="Front-end"> 
+                        <label for="Front-end">Back-end</label>
+                        <input type="radio" id="Front-end"> 
+                        <label for="Front-end">Full-stack</label>
+                        <input type="radio" id="Front-end"> 
+                        <div class="part-senior-form">
+                            <label for="senior">Senioridade</label>
+                            <select class="tec">
+                                <option value="selected">Selecione uma opção</option>
+                                <option value="Junior">Dev Jr.</option>
+                                <option value="Pleno">Dev Pl.</option>
+                                <option value="Senior">Dev. Sr.</option>
+                            </select>
+                        </div>
+                        <div class="tecnologies">
+                            <label for="tec">HTML</label>
+                            <input type="checkbox" name="tecs" value="HTML">
+                            <label for="tec">CSS</label>
+                            <input type="checkbox" name="tecs" value="CSS">
+                            <label for="tec">Javascript</label>
+                            <input type="checkbox" name="tecs" value="Javascript">
+                            <label for="tec">TypeScript</label>
+                            <input type="checkbox" name="tecs" value="Typescript">
+                            <label for="tec">PHP</label>
+                            <input type="checkbox" name="tecs" value="PHP">
+                            <label for="tec">C#</label>
+                            <input type="checkbox" name="tecs" value="C#">
+                            <label for="tec">Python</label>
+                            <input type="checkbox" name="tecs" value="Python">
+                            <label for="tec">Java</label>
+                            <input type="checkbox" name="tecs" value="Java">
+                        </div>
+                        <div class="form-final">
+                            <span>Conte um pouco sobre a sua experiencia em programação: </span>
+                        </div>
+                        <div class="text-area">
+                            <textarea cols="50" rows="5"></textarea>
+                        </div>
+                        <div class="anexo">
+                            <label for="anexos">Anexar um curriculo completo: </label>
+                            <input type="file">
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="button-form">
+                    <button type="submit" class="button">Concluir</button>
+                </div>
+                </form>
+            </main>
+        </div>
+    </body>
+</html>
